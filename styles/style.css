@@ -1,0 +1,212 @@
+/* FOnt Styles */
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.rufina-bold {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+} 
+/* universal part */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+.header{
+    width: 100%;
+    height: 1000px;
+    left: -1px;
+    top: 0;
+    background: rgb(194, 239, 212);
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 49px;
+    left: 174px;
+    top: 55px;
+    color: rgb(34, 79, 52);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 1250px;
+    height: 99px;
+}
+.menu>nav>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+.menu>nav>ul>li{
+    width: 220px;
+    height: 33px;
+    color: rgb(34, 79, 52);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+.menu>nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(34, 79, 52);
+}
+.btn-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 50px;
+    margin-right: 70px;
+
+}
+.btn-nav>button>a>img{
+    background: transparent;
+    background-color:  rgb(194, 239, 212) ;
+    border: 2px solid black;
+}
+.btn-login{
+    width: 142px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 79, 52);
+    border-radius: 3px;
+    background: transparent;
+}
+.btn-login>a{
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: rgb(34, 79, 52);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 460px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 649px;
+height: 632px;
+left: 174px;
+right: 905px;
+top: 256px;
+bottom: 229px;
+/* border: 2px solid red; */
+margin-top: 100px;
+}
+.details>h2{
+    /* border: 2px solid red; */
+    /* width: 649px;
+    height: 218px; */
+    left: 174px;
+    top: 256px;
+    margin-top: -90px;
+    color: rgb(34, 79, 52);
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 106px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.details>p{
+    color: rgb(38, 125, 73);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 220%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: -100px;
+}
+.btn-hero{
+    width: 258px;
+    height: 74px;
+    left: 174px;
+    top: 814px;
+    border-radius: 3px;
+    margin-top: 54px;
+    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.3);
+    background: rgb(34, 79, 52);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.picture-hero{
+    /* border: 2px solid red; */
+width: 570px;
+height: 717px;
+left: 983px;
+top: 234px;
+margin-top: 80px;
+margin-right: 50px;
+background-color:  rgb(77, 156, 109);
+border-top-left-radius: 120px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 150px;
+box-shadow: 20px 10px 10px 2px rgb(34, 79, 52);
+
+}
+/* section- Best-selling */
